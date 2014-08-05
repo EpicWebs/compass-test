@@ -1,4 +1,4 @@
-grunt-test
+compass-test
 ==========
 
-Temporary Repo for Testing Grunt
+Temporary Repo for Testing Compass
