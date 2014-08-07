@@ -32,7 +32,7 @@ Now you should be up and running with the repository and be able to run grunt wh
 - Minifies the javascript
 - Create sprites and necessary SASS
 - Compiles the SASS
-- Makes CSS files inline
+- Makes CSS files inline, if the CSS files have ?__inline=true in the link
 
 Good luck!
 
@@ -75,4 +75,4 @@ This module is being used to make CSS inline.
 
 
 ####OPERATING SYSTEM####
-The notes for getting up and running are based on a mac operating system. If you need to install this on windows you might have to rework the github commit hook/compile script.
+The notes for getting up and running are based on a mac operating system. If you need to install this on windows you might have to rework the github commit hook/compile script as it uses bash, but you are able to install software to run bash on windows operating systems.
