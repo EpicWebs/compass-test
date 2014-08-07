@@ -10,7 +10,7 @@ This is just a test repository on using Grunt for running tasks.
 - Install grunt on your machine
 
 ####INSTALLATION####
-- Clone or fork the repo to your local machine
+- Fork and then clone the repo to your local machine
 - Rename pre-commit.sample inside /your_project/.git/hooks/ to pre-commit (no extension)
 - Put the following code inside pre-commit
 ```
