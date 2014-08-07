@@ -24,11 +24,11 @@ grunt.initConfig({
         }
     }
 });
-
+    
 grunt.loadNpmTasks('grunt-contrib-uglify');
-grunt.loadNpmTasks('grunt-contrib-sass');
-
 grunt.registerTask('default', ['uglify']);
+    
+grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.registerTask('default', ['sass']);
 
 };
