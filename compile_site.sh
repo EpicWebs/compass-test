@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# this pre-commit script uses compass to compile and compress stylesheet partials
+# Run grunt tasks for generally compiling, compressing and concatenating files.
 echo -e "\nChecking javascript with jshint.";
 grunt jshint
 
