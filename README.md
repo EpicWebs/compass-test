@@ -86,4 +86,4 @@ This module is being used to make CSS inline.
 
 
 ####OPERATING SYSTEM####
-This README is based on MAC OS. If you need to install this on windows you might have to rework the github commit hook/compile script as it uses bash, but you are able to install software to run bash on windows operating systems.
+This README is based on MAC OS. If you need to install this on windows you might have to rework the github commit hook/compile script as it uses bash, but you are able to install software to run bash on windows operating systems. If you are unable to use bash then you will need to manually run grunt before any github add commands.
