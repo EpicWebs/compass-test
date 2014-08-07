@@ -34,6 +34,8 @@ Now you should be up and running with the repository and be able to run grunt wh
 - Compiles the SASS
 - Makes CSS files inline, if the CSS files have ?__inline=true in the link
 
+All of the files which you should edit are the source files inside src, these files are then manipulated and then built inside the build folder.
+
 Good luck!
 
 ##NOTES##
