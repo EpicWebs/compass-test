@@ -1,5 +1,9 @@
 Deployment test, using Compass, SASS and Grunt.
 ==========
+
+#GETTING STARTED#
+This is just a test repository on setting Grunt for running tasks.
+
 ##REQUIREMENTS##
 - Install node.js on your machine
 - Install npm (node package manager) on your machine
@@ -31,3 +35,21 @@ Now you should be up and running with the repository and be able to run grunt wh
 - Makes CSS files inline
 
 Good luck!
+
+#NOTES#
+
+##JAVASCRIPT CONCATENATION ORDER##
+Inside gruntfile.js you can specify the order of which javascript files are compressed and then combined. The order of the array items inside files in the example below is the same as the order in which they are combined.
+```
+uglify: {
+    js: {
+        files: { 'build/js/scripts.js': ['src/js/script2.js', 'src/js/*.js'] },
+        options: {
+            preserveComments: false
+        }
+    }
+}
+```
+
+##OPERATING SYSTEM##
+The notes for getting up and running are based on a mac operating system. If you need to install this on windows you might have to rework the github commit hook/compile script.
