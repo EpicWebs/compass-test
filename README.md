@@ -43,11 +43,11 @@ The main files to look at are the ones which are doing the heavy lifting.
 - gruntfile.js
 - compile_site.sh
 - nodule_modules
--- grunt-contrib-jshint
--- grunt-contrib-sass
--- grunt-contrib-uglify
--- grunt-inline
--- grunt-spritesmith
+    - grunt-contrib-jshint
+    - grunt-contrib-sass
+    - grunt-contrib-uglify
+    - grunt-inline
+    - grunt-spritesmith
 
 ####JAVASCRIPT CONCATENATION ORDER####
 Inside gruntfile.js you can specify the order of which javascript files are compressed and then combined. The order of the array items inside files in the example below is the same as the order in which they are combined.
