@@ -32,7 +32,10 @@ Now you should be up and running with the repository and be able to run grunt wh
 - Minifies the javascript
 - Create sprites and necessary SASS
 - Compiles the SASS
-- Makes CSS files inline, if the CSS files have ?__inline=true in the link
+- Makes CSS files inline, if the CSS files have ?__inline=true in the link, for example:
+```
+<link href="../build/css/screen.css?__inline=true" media="screen, projection" rel="stylesheet" type="text/css" />
+```
 
 All of the files which you should edit are the source files inside src, these files are manipulated and then built inside the build folder.
 
