@@ -63,7 +63,7 @@ uglify: {
 ```
 
 ####GRUNT MODULES####
-A list of modules being used by this install.
+A list of modules being used by this install. This list is also in the same order as they are executed.
 
 **grunt-contrib-jshint**
 This module is being used for checking javascript files.
