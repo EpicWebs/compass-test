@@ -4,10 +4,10 @@
 echo -e "\nChecking javascript with jshint.";
 grunt jshint
 
-echo -e "\nMaking javascript Ugly.";
+echo -e "\nMaking javascript ugly.";
 grunt uglify
 
-echo -e "\nCreating Sprite.";
+echo -e "\nCreating sprite.";
 grunt sprite
 
 echo -e "\nCompiling SASS.";
