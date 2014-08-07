@@ -16,7 +16,7 @@ Deployment test, using Compass, SASS and Grunt.
 bash compile_site.sh
 ```
 
-- In the command line run the following commands
+In the command line run the following commands
 ```
 npm install
 grunt
