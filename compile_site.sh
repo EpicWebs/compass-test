@@ -7,6 +7,9 @@ grunt jshint
 echo -e "\nMaking javascript Ugly.";
 grunt uglify
 
+echo -e "\nCreating Sprite.";
+grunt spritesmith
+
 echo -e "\nCompiling SASS.";
 grunt sass
 
