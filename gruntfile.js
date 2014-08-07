@@ -3,13 +3,11 @@ module.exports = function(grunt) {
 grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
-        my_target: {
-          files: [{
-              expand: true,
-              cwd: 'src/javascripts',
-              src: '**/*.js',
-              dest: 'build/js'
-          }]
+        js: {
+            files: { 'build/js/scripts.js': 'src/js/**/*.js' },
+            options: {
+                preserveComments: false
+            }
         }
     },
     sass: {
