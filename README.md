@@ -55,27 +55,22 @@ uglify: {
 A list of modules being used by this install.
 
 **grunt-contrib-jshint**
-
 This module is being used for checking javascript files.
 
 
 **grunt-contrib-uglify**
-
 This module is being used to minify javascript files.
 
 
 **grunt-spritesmith**
-
 This module is being used to generate sprites.
 
 
 **grunt-contrib-sass**
-
 This module is being used to compile SASS.
 
 
 **grunt-inline**
-
 This module is being used to make CSS inline.
 
 
