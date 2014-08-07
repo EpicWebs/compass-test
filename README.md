@@ -2,7 +2,7 @@ Deployment test, using Compass, SASS and Grunt.
 ==========
 
 ##GETTING STARTED##
-This is just a test repository on setting Grunt for running tasks.
+This is just a test repository on using Grunt for running tasks.
 
 ####REQUIREMENTS####
 - Install node.js on your machine
