@@ -1,1 +1,1 @@
-console.log("Success"),console.log("success");
+console.log("success script 2"),console.log("Success");

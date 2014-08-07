@@ -4,7 +4,7 @@ grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
         js: {
-            files: { 'build/js/scripts.js': 'src/js/*.js' },
+            files: { 'build/js/scripts.js': ['src/js/script2.js', 'src/js/*.js'] },
             options: {
                 preserveComments: false
             }
