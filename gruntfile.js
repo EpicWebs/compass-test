@@ -18,7 +18,6 @@ grunt.initConfig({
             files: {
                 'build/css/ie.css'    : 'src/sass/ie.scss',
                 'build/css/print.css' : 'src/sass/print.scss',
-                'build/css/reset.css' : 'src/sass/reset.scss',
                 'build/css/screen.css': 'src/sass/screen.scss',
             }
         }
