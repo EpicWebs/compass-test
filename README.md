@@ -4,12 +4,12 @@ Deployment test, using Compass, SASS and Grunt.
 ##GETTING STARTED##
 This is just a test repository on setting Grunt for running tasks.
 
-###REQUIREMENTS###
+####REQUIREMENTS####
 - Install node.js on your machine
 - Install npm (node package manager) on your machine
 - Install grunt on your machine
 
-###INSTALLATION###
+####INSTALLATION####
 - Clone or fork the repo to your local machine
 - Rename pre-commit.sample inside /your_project/.git/hooks/ to pre-commit (no extension)
 - Put the following code inside pre-commit
@@ -26,7 +26,7 @@ npm install
 grunt
 ```
 
-###GOOD LUCK!###
+####GOOD LUCK!####
 Now you should be up and running with the repository and be able to run grunt which does the following.
 - Checks javascript with jshint
 - Minifies the javascript
@@ -38,7 +38,7 @@ Good luck!
 
 ##NOTES##
 
-###JAVASCRIPT CONCATENATION ORDER###
+####JAVASCRIPT CONCATENATION ORDER####
 Inside gruntfile.js you can specify the order of which javascript files are compressed and then combined. The order of the array items inside files in the example below is the same as the order in which they are combined.
 ```
 uglify: {
@@ -51,5 +51,5 @@ uglify: {
 }
 ```
 
-###OPERATING SYSTEM###
+####OPERATING SYSTEM####
 The notes for getting up and running are based on a mac operating system. If you need to install this on windows you might have to rework the github commit hook/compile script.
