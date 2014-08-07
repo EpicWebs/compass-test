@@ -26,7 +26,7 @@ npm install
 grunt
 ```
 
-####GOOD LUCK!####
+####SUCCESS!####
 Now you should be up and running with the repository and be able to run grunt which does the following.
 - Checks javascript with jshint
 - Minifies the javascript
