@@ -36,6 +36,7 @@ Now you should be up and running with the repository and be able to run grunt wh
 ```
 <link href="../build/css/screen.css?__inline=true" media="screen, projection" rel="stylesheet" type="text/css" />
 ```
+- Re-writes the urls of CSS files from ../build/ to build/
 
 All of the files which you should edit are the source files inside src, these files are manipulated and then built inside the build folder.
 
@@ -65,25 +66,28 @@ uglify: {
 ####GRUNT MODULES####
 A list of modules being used by this install. This list is also in the same order as they are executed.
 
-**grunt-contrib-jshint**
+**grunt-contrib-jshint**<br />
 This module is being used for checking javascript files.
 
 
-**grunt-contrib-uglify**
+**grunt-contrib-uglify**<br />
 This module is being used to minify javascript files.
 
 
-**grunt-spritesmith**
+**grunt-spritesmith**<br />
 This module is being used to generate sprites.
 
 
-**grunt-contrib-sass**
+**grunt-contrib-sass**<br />
 This module is being used to compile SASS.
 
 
-**grunt-inline**
+**grunt-inline**<br />
 This module is being used to make CSS inline.
 
+
+**grunt-processhtml**<br />
+This module is being used to make re-write the urls for external CSS files.
 
 ####OPERATING SYSTEM####
 This README is based on MAC OS. If you need to install this on windows you might have to rework the github commit hook/compile script as it uses bash, you are able to install software to run bash scripts on windows operating systems. If you are unable to use bash then you will need to manually run grunt before any github add commands.
