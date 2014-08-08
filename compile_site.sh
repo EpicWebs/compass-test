@@ -13,11 +13,11 @@ grunt sprite
 echo -e "\nCompiling SASS.";
 grunt sass
 
-echo -e "\nMaking CSS inline.";
-grunt inline
-
 echo -e "\nRe-writing CSS links.";
 grunt processhtml
+
+echo -e "\nMaking CSS inline.";
+grunt inline
 
 echo -e "\nAdding compiled files to git.";
 wait $!
