@@ -48,7 +48,9 @@ Good luck!
 The main files to look at are:
 - gruntfile.js
 - compile_site.sh
-- node_modules
+- src/index.html
+- src/sass/sprite.scss
+- src/images/sprite/
 
 ####JAVASCRIPT CONCATENATION ORDER####
 Inside gruntfile.js you can specify the order of which javascript files are compressed and then combined. The order of the array items inside files in the example below is the same as the order in which they are combined.
