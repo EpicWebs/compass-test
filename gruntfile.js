@@ -41,7 +41,7 @@ module.exports = function (grunt) {
         // Make certain CSS inline.
         inline: {
             dist: {
-                src: ['index.html'],
+                src: ['src/index.html'],
                 dest: ['index.html']
             }
         },
@@ -51,7 +51,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'index.html': ['src/index.html']
+                    'index.html': ['index.html']
                 }
             },
         },

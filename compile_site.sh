@@ -17,12 +17,12 @@ echo -e "\nCompiling SASS.";
 grunt sass
 
 wait $!
-echo -e "\nRe-writing CSS links.";
-grunt processhtml
-
-wait $!
 echo -e "\nMaking CSS inline.";
 grunt inline
+
+wait $!
+echo -e "\nRe-writing CSS links.";
+grunt processhtml
 
 echo -e "\nAdding compiled files to git.";
 wait $!
