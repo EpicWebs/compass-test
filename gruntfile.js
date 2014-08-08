@@ -38,15 +38,16 @@ module.exports = function (grunt) {
                 }
             }
         },
+        // Make certain CSS inline.
         inline: {
             dist: {
                 src: ['src/index.html'],
                 dest: ['index.html']
             }
         },
+        // Process HTML to re-write the CSS links.
         processhtml: {
             options: {
-              // Task-specific options go here.
             },
             dist: {
                 files: {
