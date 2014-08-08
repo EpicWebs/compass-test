@@ -43,7 +43,15 @@ module.exports = function (grunt) {
                 src: ['src/index.html'],
                 dest: ['index.html']
             }
-        }
+        },
+        processhtml: {
+            options: {
+              // Task-specific options go here.
+            },
+            your_target: {
+              // Target-specific file lists and/or options go here.
+            },
+        },
     });
 
     grunt.loadNpmTasks('grunt-contrib-jshint');
