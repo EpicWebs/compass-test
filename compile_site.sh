@@ -16,6 +16,9 @@ grunt sass
 echo -e "\nMaking CSS inline.";
 grunt inline
 
+echo -e "\nRe-writing CSS links.";
+grunt processhtml
+
 echo -e "\nAdding compiled files to git.";
 wait $!
 git add --all

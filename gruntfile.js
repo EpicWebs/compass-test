@@ -60,5 +60,8 @@ module.exports = function (grunt) {
 
     grunt.loadNpmTasks('grunt-inline');
     grunt.registerTask('default', ['inline']);
+    
+    grunt.loadNpmTasks('grunt-processhtml');
+    grunt.registerTask('default', ['processhtml']);
 
 };
