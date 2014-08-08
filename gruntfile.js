@@ -50,7 +50,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 files: {
-                    'src/index.html': ['index.html']
+                    'index.html': ['src/index.html']
                 }
             },
         },
