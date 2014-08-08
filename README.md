@@ -63,6 +63,15 @@ uglify: {
 }
 ```
 
+####RE-WRITE EXTERAL FILE URLS####
+The task inside gruntfile.js called processhtml re-writes the urls for external files. You can see which files are being re-written as they have the following comments around them.
+```
+<!-- build:css build/css/print.css -->
+<link href="../build/css/print.css" media="print" rel="stylesheet" type="text/css" />
+<!-- /build -->
+```
+These comments are then removed and the url is re-written.
+
 ####GRUNT MODULES####
 A list of modules being used by this install. This list is also in the same order as they are executed.
 
