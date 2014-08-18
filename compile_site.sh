@@ -19,6 +19,9 @@ grunt inline
 echo -e "\nRe-writing CSS links.";
 grunt processhtml
 
+echo -e "\nValidating HTML.";
+grunt validatehtml
+
 echo -e "\nAdding compiled files to git.";
 wait $!
 git add --all
