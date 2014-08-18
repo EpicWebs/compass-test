@@ -56,7 +56,7 @@ module.exports = function (grunt) {
             },
         },
         // W3 HTML validation.
-        validatehtml: {
+        validate: {
             options: {
                 reset: grunt.option('reset') || false,
                 stoponerror: false,
@@ -87,6 +87,6 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['processhtml']);
     
     grunt.loadNpmTasks('grunt-html-validation');
-    grunt.registerTask('default', ['validatehtml']);
+    grunt.registerTask('default', ['validate']);
 
 };
