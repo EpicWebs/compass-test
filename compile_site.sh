@@ -20,7 +20,7 @@ echo -e "\nRe-writing CSS links.";
 grunt processhtml
 
 echo -e "\nValidating HTML.";
-grunt validate
+grunt validation
 
 echo -e "\nAdding compiled files to git.";
 wait $!
