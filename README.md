@@ -79,7 +79,7 @@ The task inside gruntfile.js called processhtml re-writes the urls for external 
 These comments are then removed and the url is re-written.
 
 ####GRUNT MODULES####
-A list of modules being used by this install. This list is also in the same order as they are executed.
+A list of modules being used by this install. This list is also in the same order as they are run compile_site.sh.
 
 **grunt-contrib-jshint**<br />
 This module is used for checking javascript files.
