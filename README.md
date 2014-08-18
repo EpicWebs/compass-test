@@ -37,6 +37,11 @@ Now you should be up and running with the repository and be able to run grunt wh
 <link href="../build/css/screen.css?__inline=true" media="screen, projection" rel="stylesheet" type="text/css" />
 ```
 - Re-writes the urls of CSS files from ../build/ to build/
+```
+<!-- build:css build/css/print.css -->
+<link href="../build/css/print.css" media="print" rel="stylesheet" type="text/css" />
+<!-- /build -->
+```
 
 All of the files which you should edit are the source files inside src, these files are manipulated and then built inside the build folder.
 
