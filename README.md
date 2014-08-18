@@ -98,7 +98,7 @@ This module is being used to make CSS inline.
 
 
 **grunt-processhtml**<br />
-This module is being used to make re-write the urls for external CSS files.
+This module is being used to re-write the urls for external CSS files.
 
 ####OPERATING SYSTEM####
 This README is based on MAC OS. If you need to install this on windows you might have to rework the github commit hook/compile script as it uses bash, you are able to install software to run bash scripts on windows operating systems. If you are unable to use bash then you will need to manually run grunt before any git commands.
