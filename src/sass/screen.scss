@@ -17,3 +17,5 @@ body { background-color:#cccccc; text-align:center; }
 @mixin icon-right { display:inline-block; padding-left:5px; }
 
 .icon-a { @include sprite($icon-a); @include icon-right(); }
+.icon-b { @include sprite($icon-b); @include icon-right(); }
+.icon-c { @include sprite($icon-c); @include icon-right(); }
